@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
     #     root += f"/{branch}"   
     for branch in ['train','val','test']:
-        root = "/home/yuanshuozhang/GDesigner-3063/workflowbench/dataset/ext_humaneval_gdesigner_mistral"  
+        root = "datasets_checkpoints/Coding-AF"  
         jsonl_path = root + f"/{branch}.jsonl"  
         root = root + f"/{branch}"
         dataset = CustomGraphDataset(root=root, jsonl_path=jsonl_path,branch=branch)
