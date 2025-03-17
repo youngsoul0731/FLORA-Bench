@@ -7,7 +7,7 @@ import argparse
 from typing import Dict, List
 
 import os, sys
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 print(project_root)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
