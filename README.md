@@ -1,4 +1,4 @@
-# Officail code and datasets of paper: GNNs as Predictors of Agentic Workflow Performances
+# [Arxiv 2025]Officail code and datasets of paper: GNNs as Predictors of Agentic Workflow Performances
 <img src="./figures/workflow.jpg" alt="Agentic workflow and its computational graph. Nodes are agents handling subtasks and
 edges are the task dependencies." width="800" />
 
