@@ -1,6 +1,6 @@
 # Officail code and datasets of paper: GNNs as Predictors of Agentic Workflow Performances
 <img src="./figures/workflow.jpg" alt="Agentic workflow and its computational graph. Nodes are agents handling subtasks and
-edges are the task dependencies." width="600" />
+edges are the task dependencies." width="800" />
 
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
 
