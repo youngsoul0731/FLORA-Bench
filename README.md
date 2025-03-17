@@ -1,5 +1,7 @@
 # Officail code and datasets of paper: GNNs as Predictors of Agentic Workflow Performances
 
+![Agentic workflow and its computational graph. Nodes are agents handling subtasks and
+edges are the task dependencies.](./figures/coding_workflow.bmp){width=600}
 ## 0. Installation
 
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
@@ -30,7 +32,7 @@ This will download the following:
 To optimize the agentic workflows using GNN as the reward model integrated with Monte Carlo Tree Search (MCTS), run the following example script:
 
 ```bash
-source run_generate_workflow.sh
+source scripts/optimize/run_generate_workflow.sh
 ```
 
 ### Parameters:
@@ -42,7 +44,7 @@ source run_generate_workflow.sh
 After generating the optimized workflows, you can compare the actual inference scores with the predicted scores by running the following script:
 
 ```bash
-source run_generate_labels.sh
+source scripts/optimize/run_generate_labels.sh
 ```
 
 ### Parameters:
