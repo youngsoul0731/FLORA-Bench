@@ -2,6 +2,9 @@
 <img src="./figures/workflow.jpg" alt="Agentic workflow and its computational graph. Nodes are agents handling subtasks and
 edges are the task dependencies." width="800" />
 
+
+We are actively organizing the codes and datasets, thanks for your patience!
+
 ## 0. Install
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
 
