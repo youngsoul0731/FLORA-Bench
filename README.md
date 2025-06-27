@@ -7,40 +7,48 @@ edges are the task dependencies." width="800" />
 
 ## 📢 News
 2025.3.14: 📄 We release the [preprint](https://arxiv.org/pdf/2503.11301).
+
+
 2023.6.27: 📊 You can access our dataset in [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench)
 
 ## 🚀 Getting Started
 
-### 0. ⚙️ Environment Setup
+### 0. Environment Setup
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
 
+Create a environment.
+
 ```bash
-conda env create -f environment.yml --name flora_bench
+conda env create --name flora_bench python=3.10
 conda activate flora_bench
 ```
 
-### 1. 🛠️ Download Data and Checkpoints
+### 1. Download Data and GNN Checkpoints
 
 For the dataset used to train GNNs, you can download via [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench). 
 
-For GNN check point, 
-
-Additionally, we should download the data used for [AFLOW](https://github.com/FoundationAgents/MetaGPT/tree/main/metagpt/ext/aflow)
-
-You can download the necessary data, including the initial graph, dataset, and GNNs checkpoints. You can do this by running the following command:
-
+Additionally, we should download the data used for [AFLOW](https://github.com/FoundationAgents/MetaGPT/tree/main/metagpt/ext/aflow). Because we have integrated GNNs into the AFLOW framework. You can run the following command:
 ```bash
-python data/download_data.py
+python download_data.py
+```
+The data you need to use is as follows:
+- Dataset used to train GNNs. You should put in in `datasets_checkpoints`
+- GNNs checkpoints (optional).
+- Dataset used for AFLOW, which will be downloaded in `metagpt/ext/aflow/data`
+- Initial round data for AFLOW, which will be downloaded in `metagpt/ext/aflow/scripts/optimized`
+
+### 2. Train and Evaluate GNNs
+
+To train GNNs, run the following example command:
+```bash
+python scripts/predict/train_gnn.py --data_path <specified_data_path> --base_conv <GNN type> 
+python scripts/predict/evaluate_gnn.py --data_path <specified_data_path> --base_conv <GNN type> --cross_system <specified_data_path>
 ```
 
-Alternatively, you can download the data from the following Google Drive URL:
+Keep `cross_system` and `data_path` to be the same. We only set them different for cross-domain test.
 
-This will download the following:
-- Initial round data
-- Dataset
-- GNNs checkpoints
-- Results
-### 3.
+
+### 2. 🛠️ Config API keys   
 
 
 ### 2. Run Workflow Generation with GNN as Reward Model
