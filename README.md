@@ -2,13 +2,16 @@
 <img src="./figures/workflow.jpg" alt="Agentic workflow and its computational graph. Nodes are agents handling subtasks and
 edges are the task dependencies." width="800" />
 
-
-We are actively organizing the codes and datasets, thanks for your patience!
-## News
-2025.4.08: Now you can access our dataset through this [link](https://drive.google.com/drive/folders/1PnGeFjAlzmM1XaBeiZT49K7fjaJTyRWv?usp=sharing).
+[![arXiv](https://img.shields.io/badge/arXiv-2503.11301-b31b1b.svg)](https://arxiv.org/abs/2503.11301) [![dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface)](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench)
 
 
-## 0. Install
+## 📢 News
+2025.3.14: 📄 We release the [preprint](https://arxiv.org/pdf/2503.11301).
+2023.6.27: 📊 You can access our dataset in [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench)
+
+## 🚀 Getting Started
+
+### 0. ⚙️ Environment Setup
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
 
 ```bash
@@ -16,7 +19,13 @@ conda env create -f environment.yml --name flora_bench
 conda activate flora_bench
 ```
 
-## 1. Download Data
+### 1. 🛠️ Download Data and Checkpoints
+
+For the dataset used to train GNNs, you can download via [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench). 
+
+For GNN check point, 
+
+Additionally, we should download the data used for [AFLOW](https://github.com/FoundationAgents/MetaGPT/tree/main/metagpt/ext/aflow)
 
 You can download the necessary data, including the initial graph, dataset, and GNNs checkpoints. You can do this by running the following command:
 
@@ -31,8 +40,10 @@ This will download the following:
 - Dataset
 - GNNs checkpoints
 - Results
+### 3.
 
-## 2. Run Workflow Generation with GNN as Reward Model
+
+### 2. Run Workflow Generation with GNN as Reward Model
 
 To optimize the agentic workflows using GNN as the reward model integrated with Monte Carlo Tree Search (MCTS), run the following example script:
 
