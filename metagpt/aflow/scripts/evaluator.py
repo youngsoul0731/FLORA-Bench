@@ -25,8 +25,8 @@ TASK_DICT = {
             "MATH": "problem",
             "MBPP": "prompt"
         }
-from scripts.utils.embedding import get_encoder
-from scripts.utils.model import get_model
+from scripts.optimize.utils.embedding import get_encoder
+from scripts.optimize.utils.model import get_model
 import torch
 
 class Evaluator:
@@ -56,7 +56,6 @@ class Evaluator:
             data_path = dataset_file
         else:
             data_path = self._get_data_path(dataset, is_test)
-        
         benchmark_class = self.dataset_configs[dataset]
         benchmark = benchmark_class(name=dataset, file_path=data_path, log_path=path)
 

@@ -34,7 +34,6 @@ class GraphUtils:
     def load_graph(self, round_number: int, workflows_path: str):
         workflows_path = workflows_path.replace("\\", ".").replace("/", ".")
         graph_module_name = f"{workflows_path}.round_{round_number}.graph"
-
         try:
             graph_module = __import__(graph_module_name, fromlist=[""])
             graph_class = getattr(graph_module, "Workflow")

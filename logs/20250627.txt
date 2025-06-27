@@ -1,0 +1,334 @@
+2025-06-27 19:39:54.635 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:42:39.123 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:45:24.939 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:46:15.311 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:47:07.785 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:48:42.580 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:49:33.012 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:52:19.439 | INFO     | data.download_data:process_dataset:38 - Downloading aflow_data.tar.gz...
+2025-06-27 19:52:28.291 | INFO     | data.download_data:process_dataset:41 - Extracting aflow_data.tar.gz...
+2025-06-27 19:52:28.337 | INFO     | data.download_data:process_dataset:44 - aflow_data.tar.gz download and extraction completed.
+2025-06-27 19:52:28.338 | INFO     | data.download_data:process_dataset:47 - Removed aflow_data.tar.gz
+2025-06-27 19:52:28.338 | INFO     | data.download_data:process_dataset:38 - Downloading initial_rounds.tar.gz...
+2025-06-27 19:52:33.174 | INFO     | data.download_data:process_dataset:41 - Extracting initial_rounds.tar.gz...
+2025-06-27 19:52:33.179 | INFO     | data.download_data:process_dataset:44 - initial_rounds.tar.gz download and extraction completed.
+2025-06-27 19:52:33.180 | INFO     | data.download_data:process_dataset:47 - Removed initial_rounds.tar.gz
+2025-06-27 19:54:56.156 | INFO     | data.download_data:process_dataset:38 - Downloading aflow_data.tar.gz...
+2025-06-27 19:55:06.445 | INFO     | data.download_data:process_dataset:41 - Extracting aflow_data.tar.gz...
+2025-06-27 19:55:06.496 | INFO     | data.download_data:process_dataset:44 - aflow_data.tar.gz download and extraction completed.
+2025-06-27 19:55:06.496 | INFO     | data.download_data:process_dataset:47 - Removed aflow_data.tar.gz
+2025-06-27 19:55:06.496 | INFO     | data.download_data:process_dataset:38 - Downloading initial_rounds.tar.gz...
+2025-06-27 19:55:09.236 | INFO     | data.download_data:process_dataset:41 - Extracting initial_rounds.tar.gz...
+2025-06-27 19:55:09.246 | INFO     | data.download_data:process_dataset:44 - initial_rounds.tar.gz download and extraction completed.
+2025-06-27 19:55:09.246 | INFO     | data.download_data:process_dataset:47 - Removed initial_rounds.tar.gz
+2025-06-27 19:55:18.800 | INFO     | metagpt.aflow.scripts.optimizer_utils.graph_utils:load_graph:43 - Error loading graph for round 1: No module named 'workplace.HumanEval.workflows.round_1.graph'
+2025-06-27 19:55:18.800 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: No module named 'workplace.HumanEval.workflows.round_1.graph'. Retrying... (Attempt 1/1)
+2025-06-27 19:55:18.800 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 19:55:23.805 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 2: None
+2025-06-27 19:55:28.816 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: 'round'. Retrying... (Attempt 1/1)
+2025-06-27 19:55:28.816 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 19:55:33.821 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 3: None
+2025-06-27 19:55:38.830 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: 'round'. Retrying... (Attempt 1/1)
+2025-06-27 19:55:38.831 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 19:55:43.835 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 4: None
+2025-06-27 19:55:48.843 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: 'round'. Retrying... (Attempt 1/1)
+2025-06-27 19:55:48.844 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 19:55:53.850 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 5: None
+2025-06-27 19:55:58.859 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: 'round'. Retrying... (Attempt 1/1)
+2025-06-27 19:55:58.860 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 19:56:03.865 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 6: None
+2025-06-27 19:58:28.536 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 19:59:47.676 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 19:59:47.677 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:00:05.200 | INFO     | data.download_data:process_dataset:38 - Downloading aflow_data.tar.gz...
+2025-06-27 20:00:17.092 | INFO     | data.download_data:process_dataset:41 - Extracting aflow_data.tar.gz...
+2025-06-27 20:00:17.142 | INFO     | data.download_data:process_dataset:44 - aflow_data.tar.gz download and extraction completed.
+2025-06-27 20:00:17.142 | INFO     | data.download_data:process_dataset:47 - Removed aflow_data.tar.gz
+2025-06-27 20:00:17.142 | INFO     | data.download_data:process_dataset:38 - Downloading initial_rounds.tar.gz...
+2025-06-27 20:00:20.674 | INFO     | data.download_data:process_dataset:41 - Extracting initial_rounds.tar.gz...
+2025-06-27 20:00:20.686 | INFO     | data.download_data:process_dataset:44 - initial_rounds.tar.gz download and extraction completed.
+2025-06-27 20:00:20.686 | INFO     | data.download_data:process_dataset:47 - Removed initial_rounds.tar.gz
+2025-06-27 20:00:49.906 | INFO     | metagpt.aflow.scripts.optimizer_utils.graph_utils:load_graph:43 - Error loading graph for round 1: No module named 'metagpt.ext'
+2025-06-27 20:01:28.300 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 20:01:28.301 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:01:47.977 | INFO     | data.download_data:process_dataset:38 - Downloading aflow_data.tar.gz...
+2025-06-27 20:01:58.984 | INFO     | data.download_data:process_dataset:41 - Extracting aflow_data.tar.gz...
+2025-06-27 20:01:59.035 | INFO     | data.download_data:process_dataset:44 - aflow_data.tar.gz download and extraction completed.
+2025-06-27 20:01:59.035 | INFO     | data.download_data:process_dataset:47 - Removed aflow_data.tar.gz
+2025-06-27 20:01:59.035 | INFO     | data.download_data:process_dataset:38 - Downloading initial_rounds.tar.gz...
+2025-06-27 20:02:11.564 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:02:14.227 | INFO     | metagpt.aflow.scripts.optimizer_utils.graph_utils:load_graph:43 - Error loading graph for round 1: No module named 'metagpt.ext'
+2025-06-27 20:02:14.227 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: No module named 'metagpt.ext'. Retrying... (Attempt 1/1)
+2025-06-27 20:02:14.228 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:02:19.233 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 2: None
+2025-06-27 20:03:06.423 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:03:21.831 | INFO     | metagpt.aflow.scripts.optimizer_utils.graph_utils:load_graph:43 - Error loading graph for round 1: No module named 'metagpt.ext'
+2025-06-27 20:03:56.828 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:08:07.114 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 20:08:07.115 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:08:16.648 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:09:57.455 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:10:15.946 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:10:30.205 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:12:51.244 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 20:12:51.244 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:13:00.279 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:19:16.224 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:20:03.470 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:21:21.885 | INFO     | benchmark.benchmark:save_results_to_json:59 - Results saved to workplace/HumanEval/workflows/round_1/0.96970_20250627_202121.json
+2025-06-27 20:21:53.304 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 20:21:53.304 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:22:05.319 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:25:54.016 | INFO     | benchmark.benchmark:save_results_to_json:59 - Results saved to workplace/HumanEval/workflows/round_1/0.96970_20250627_202554.json
+2025-06-27 20:25:54.016 | INFO     | benchmark.benchmark:run_evaluation:135 - Average score on HumanEval dataset: 0.96970
+2025-06-27 20:25:54.017 | INFO     | benchmark.benchmark:run_evaluation:136 - Total Cost: 0.00000
+2025-06-27 20:26:04.294 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Error occurred: . Retrying... (Attempt 1/1)
+2025-06-27 20:26:04.295 | INFO     | metagpt.aflow.scripts.optimizer:optimize:158 - Max retries reached. Moving to next round.
+2025-06-27 20:26:14.492 | INFO     | data.download_data:download:79 - Skip downloading datasets
+2025-06-27 20:26:18.162 | INFO     | benchmark.benchmark:save_results_to_json:59 - Results saved to workplace/HumanEval/workflows/round_1/0.84848_20250627_202618.json
+2025-06-27 20:26:18.162 | INFO     | benchmark.benchmark:run_evaluation:134 - Average score on HumanEval dataset: 0.84848
+2025-06-27 20:26:18.162 | INFO     | benchmark.benchmark:run_evaluation:135 - Total Cost: 0.00000
+2025-06-27 20:26:19.440 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: torch.cat(): expected a non-empty list of Tensors. Retrying... (Attempt 1/1)
+2025-06-27 20:26:19.440 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:26:24.445 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 2: None
+2025-06-27 20:26:29.452 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:26:29.452 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:26:29.453 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:26:29.453 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:26:29.453 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:26:29.453 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:26:29.453 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:26:34.458 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 3: None
+2025-06-27 20:26:39.470 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:26:39.470 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:26:39.470 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:26:39.471 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:26:39.472 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:26:39.472 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:26:39.472 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:26:44.478 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 4: None
+2025-06-27 20:26:49.490 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:26:49.491 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:26:49.491 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:26:49.492 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:26:49.492 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:26:49.493 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:26:49.493 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:26:54.498 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 5: None
+2025-06-27 20:26:59.510 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:26:59.510 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:26:59.511 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:26:59.511 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:26:59.512 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:26:59.512 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:26:59.513 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:04.518 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 6: None
+2025-06-27 20:27:09.530 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:09.530 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:09.531 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:09.531 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:09.532 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:09.532 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:09.532 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:14.537 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 7: None
+2025-06-27 20:27:19.548 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:19.549 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:19.549 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:19.550 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:19.550 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:19.550 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:19.550 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:24.555 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 8: None
+2025-06-27 20:27:29.567 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:29.567 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:29.568 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:29.569 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:29.569 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:29.569 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:29.570 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:34.575 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 9: None
+2025-06-27 20:27:39.583 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:39.584 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:39.584 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:39.584 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:39.585 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:39.585 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:39.585 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:44.590 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 10: None
+2025-06-27 20:27:49.601 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:49.602 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:49.602 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:49.603 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:49.604 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:49.604 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:49.604 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:27:54.610 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 11: None
+2025-06-27 20:27:59.623 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:27:59.624 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:27:59.624 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:27:59.625 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:27:59.626 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:27:59.626 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:27:59.627 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:04.631 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 12: None
+2025-06-27 20:28:09.642 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:09.642 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:09.643 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:09.643 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:09.643 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:09.643 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:09.643 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:14.648 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 13: None
+2025-06-27 20:28:19.660 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:19.660 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:19.660 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:19.661 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:19.661 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:19.661 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:19.661 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:24.665 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 14: None
+2025-06-27 20:28:29.677 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:29.677 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:29.677 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:29.678 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:29.679 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:29.679 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:29.680 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:34.682 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 15: None
+2025-06-27 20:28:39.693 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:39.693 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:39.693 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:39.694 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:39.695 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:39.695 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:39.695 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:44.700 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 16: None
+2025-06-27 20:28:49.711 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:49.711 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:49.711 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:49.712 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:49.712 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:49.712 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:49.712 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:28:54.717 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 17: None
+2025-06-27 20:28:59.730 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:28:59.730 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:28:59.731 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:28:59.731 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:28:59.731 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:28:59.731 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:28:59.732 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:04.736 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 18: None
+2025-06-27 20:29:09.745 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:09.745 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:09.745 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:09.746 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:09.746 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:09.746 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:09.746 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:14.751 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 19: None
+2025-06-27 20:29:19.764 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:19.764 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:19.764 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:19.765 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:19.765 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:19.765 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:19.765 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:24.771 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 20: None
+2025-06-27 20:29:29.784 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:29.785 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:29.785 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:29.786 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:29.787 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:29.788 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:29.788 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:34.793 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 21: None
+2025-06-27 20:29:39.804 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:39.805 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:39.805 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:39.807 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:39.807 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:39.808 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:39.808 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:44.813 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 22: None
+2025-06-27 20:29:49.825 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:49.825 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:49.826 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:49.827 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:49.827 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:49.827 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:49.827 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.
+2025-06-27 20:29:54.828 | INFO     | metagpt.aflow.scripts.optimizer:optimize:175 - Score for round 23: None
+2025-06-27 20:29:59.842 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:73 - 
+Mixed probability distribution: [1.]
+2025-06-27 20:29:59.843 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:74 - 
+Sorted rounds: [{'round': 1, 'score': 0.9090909090909092}]
+2025-06-27 20:29:59.843 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:select_round:77 - 
+Selected index: 0, Selected item: {'round': 1, 'score': 0.9090909090909092}
+2025-06-27 20:29:59.844 | INFO     | metagpt.aflow.scripts.optimizer_utils.experience_utils:load_experience:53 - Processed experience data saved to workplace/HumanEval/workflows/processed_experience.json
+2025-06-27 20:29:59.845 | INFO     | metagpt.aflow.scripts.optimizer_utils.data_utils:load_log:117 - workplace/HumanEval/workflows/round_1/log.json
+2025-06-27 20:29:59.845 | INFO     | metagpt.aflow.scripts.optimizer:optimize:162 - Error occurred: read json file: workplace/HumanEval/workflows/round_1/log.json failed. Retrying... (Attempt 1/1)
+2025-06-27 20:29:59.845 | INFO     | metagpt.aflow.scripts.optimizer:optimize:164 - Max retries reached. Moving to next round.

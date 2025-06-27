@@ -1,4 +1,4 @@
-from scripts.utils.predictor import Predictor_ofa,Predictor,Predictor_concat 
+from scripts.optimize.utils.predictor import Predictor_ofa,Predictor,Predictor_concat 
 from torch_geometric.nn import GCNConv, global_mean_pool,GCN2Conv,GATConv,TransformerConv
 import argparse
 import torch
@@ -18,6 +18,13 @@ def parse_args(model_name):
     parser.add_argument('--n_mlplayers', type=int, default=2, help='Number of MLP layers for task embedding')
     parser.add_argument('--llm', type=str, default="ST", help='LLM model name')   
     parser.add_argument('--model_name', type=str, default=model_name, help='Model')
+    parser.add_argument('--dataset', type=str, default=4096, help='Input dimension of the model')
+    parser.add_argument(
+        "--if_first_optimize",
+        type=lambda x: x.lower() == "true",
+        default=False,
+        help="Whether to download dataset for the first time",
+    )
     args = parser.parse_args()
     return args
 

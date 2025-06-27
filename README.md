@@ -16,69 +16,105 @@ edges are the task dependencies." width="800" />
 ### 0. Environment Setup
 To set up the environment, you can use the provided `environment.yml` file to create a conda environment with all the necessary dependencies. Run the following command:
 
-Create a environment.
+1. Create a new environment.
 
 ```bash
 conda env create --name flora_bench python=3.10
 conda activate flora_bench
 ```
 
+2. Configure [metagpt](https://github.com/FoundationAgents/MetaGPT/tree/main) environment. Our code includes the parts of it, so you only need to run:
+```bash
+pip install --upgrade -e .
+```
+
+3. Configure the libraries required to train GNNs. You should install torch and PyG libraries. Because the versions of them differ in cuda versions, here we provide only an example.
+
+```bash
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+pip install torch_geometric
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.1+cu121.html
+pip install sentence_transformers, peft, bitsandbytes
+```
+
 ### 1. Download Data and GNN Checkpoints
 
-For the dataset used to train GNNs, you can download via [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench). 
-
-Additionally, we should download the data used for [AFLOW](https://github.com/FoundationAgents/MetaGPT/tree/main/metagpt/ext/aflow). Because we have integrated GNNs into the AFLOW framework. You can run the following command:
+For the dataset used to train GNNs, you can download via [huggingface](https://huggingface.co/datasets/YuanshuoZhang/FLORA-Bench).
 ```bash
-python download_data.py
+python download_graph_data.py
 ```
+
+Additionally, we should download the data used for [AFLOW](https://github.com/FoundationAgents/MetaGPT/tree/main/metagpt/ext/aflow). Because we have integrated GNNs into the AFLOW framework.  The data would be automatically downloaded later.
+
 The data you need to use is as follows:
 - Dataset used to train GNNs. You should put in in `datasets_checkpoints`
 - GNNs checkpoints (optional).
 - Dataset used for AFLOW, which will be downloaded in `metagpt/ext/aflow/data`
 - Initial round data for AFLOW, which will be downloaded in `metagpt/ext/aflow/scripts/optimized`
-
 ### 2. Train and Evaluate GNNs
 
 To train GNNs, run the following example command:
 ```bash
-python scripts/predict/train_gnn.py --data_path <specified_data_path> --base_conv <GNN type> 
+python scripts/predict/train_gnn.py --data_path <specified_data_path> --base_conv <GNN type>
 python scripts/predict/evaluate_gnn.py --data_path <specified_data_path> --base_conv <GNN type> --cross_system <specified_data_path>
 ```
 
 Keep `cross_system` and `data_path` to be the same. We only set them different for cross-domain test.
 
+### 2. 🛠️ Config API keys
 
-### 2. 🛠️ Config API keys   
+
+
 
 
 ### 2. Run Workflow Generation with GNN as Reward Model
 
+
+
 To optimize the agentic workflows using GNN as the reward model integrated with Monte Carlo Tree Search (MCTS), run the following example script:
 
+
+
 ```bash
+
 source scripts/optimize/run_generate_workflow.sh
+
 ```
 
+
+
 ### Parameters:
+
 - `--is_first_optimized`: Set this flag if it's the first time you're running the optimization. This will ensure that the necessary data is downloaded.
+
 - `--dataset`: Specify the dataset to use for optimization. Available options are `HumanEval`, `MBPP`, `MMLU`, `MATH`, and `GSM8K`.
+
+
 
 ## 3. Generate Actual Inference Labels from Optimized Workflows
 
+
+
 After generating the optimized workflows, you can compare the actual inference scores with the predicted scores by running the following script:
 
+
+
 ```bash
+
 source scripts/optimize/run_generate_labels.sh
+
 ```
 
+
+
 ### Parameters:
+
 - `--dataset`: Specify the dataset used for optimization.
+
 - `--dataset_file`: Path to the dataset file (e.g., `data/humaneval_test.jsonl`).
+
 - `--workflow_dir`: Directory containing the optimized workflows (e.g., `workplace/HumanEval/workflows`).
+
 - `--labels_dir`: Directory to save the generated labels (e.g., `workplace/HumanEval/labels`).
+
 - `--llm_config`: Specify the LLM configuration (e.g., `gpt-4o-mini`).
-
-
-
-
-

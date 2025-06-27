@@ -8,10 +8,10 @@ from benchmark.benchmark import BaseBenchmark
 from metagpt.logs import logger
 from metagpt.utils.sanitize import sanitize
 
-from scripts.utils.extract_MBPP_workflow import CallGraphParser
-from scripts.utils.fix_extarct_workflow import fix_test_extract_workflow
+from scripts.optimize.utils.extract_MBPP_workflow import CallGraphParser
+from scripts.optimize.utils.fix_extarct_workflow import fix_test_extract_workflow
 from datetime import datetime
-from scripts.pgy_dataset import CustomGraphDataset
+from scripts.optimize.pgy_dataset import CustomGraphDataset
 from torch_geometric.loader import DataLoader
 import torch
 

@@ -1,6 +1,6 @@
 from typing import Dict, List, Tuple
 from metagpt.configs.models_config import ModelsConfig
-from scripts.utils.extract_MMLU_workflow import CallGraphParser
+from scripts.optimize.utils.extract_MMLU_workflow import CallGraphParser
 import time
 import os
 

@@ -12,8 +12,8 @@ from tqdm.asyncio import tqdm_asyncio
 
 from metagpt.logs import logger
 from metagpt.utils.common import write_json_file
-from scripts.utils.embedding import get_encoder
-from scripts.utils.model import get_model
+from scripts.optimize.utils.embedding import get_encoder
+from scripts.optimize.utils.model import get_model
 
 
 class BaseBenchmark(ABC):
@@ -134,3 +134,4 @@ class BaseBenchmark(ABC):
         logger.info(f"Average score on {self.name} dataset: {average_score:.5f}")
         logger.info(f"Total Cost: {total_cost:.5f}")
         return average_score, average_cost, total_cost
+

@@ -1,1 +1,1 @@
-python experiments/scripts/generate_workflow.py --dataset MMLU --if_first_optimize false
+python scripts/optimize/generate_workflow.py --dataset HumanEval --if_first_optimize true

@@ -87,8 +87,8 @@ def parse_args():
     parser.add_argument("--validation_rounds", type=int, default=3, help="Validation rounds")
     parser.add_argument(
         "--if_first_optimize",
-        type=lambda x: x.lower() == "False",
-        default = False,
+        type=lambda x: x.lower() == "true",
+        default=False,
         help="Whether to download dataset for the first time",
     )
     parser.add_argument("--random_rate", type=float, default=0, help="Random rate")
@@ -99,7 +99,7 @@ def parse_args():
         help="Whether to use GNN to optimize")
         
     parser.add_argument("--model_name", type=str, default="gnn", help="Model name")
-    parser.add_argument("--ckp_base_path", type=str, default="ckpt/mbpp", help="Model checkpoint base directory")
+    parser.add_argument("--ckp_base_path", type=str, default="datasets_checkpoints/Coding-AF/ckpt", help="Model checkpoint base directory")
     return parser.parse_args()
 
 
@@ -109,12 +109,13 @@ if __name__ == "__main__":
     download(["datasets", "initial_rounds"], if_first_download=args.if_first_optimize)
     config = EXPERIMENT_CONFIGS[args.dataset]
     mini_llm_config =  ModelsConfig.default().get("gpt-4o-mini")
+    opt_llm_config = ModelsConfig.default().get("gpt-4o")
     # claude_llm_config = ModelsConfig.default().get("claude-3-5-sonnet-20240620")
 
     optimizer = Optimizer(
         dataset=config.dataset,
         question_type=config.question_type,
-        opt_llm_config=mini_llm_config,
+        opt_llm_config=opt_llm_config,
         exec_llm_config=mini_llm_config,
         check_convergence=args.check_convergence,
         operators=config.operators,

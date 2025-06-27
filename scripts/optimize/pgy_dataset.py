@@ -8,7 +8,7 @@ from torch_geometric.data import Data, InMemoryDataset
 from sklearn.metrics import f1_score    
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.stdout.reconfigure(encoding='utf-8')
-from scripts.utils.embedding import get_encoder
+from scripts.optimize.utils.embedding import get_encoder
 from tqdm import tqdm
 
 
